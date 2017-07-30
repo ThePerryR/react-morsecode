@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "standard", "plugin:react/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "globals": {
+    "__DEV__": true,
+    "__SERVER__": true,
+    "expect": true,
+    "test": true,
+    "jest": true,
+    "it": true
+  },
+  "rules": {
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "react-morsecode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ThePerryR/react-morsecode.git",
+  "author": "perry@teachok.com",
+  "license": "MIT",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "test": "cross-env NODE_ENV=test jest"
+  },
+  "jest": {
+    "moduleDirectories": [
+      "src",
+      "node_modules"
+    ],
+    "testEnvironment": "jsdom"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.1.9"
+  }
+}
